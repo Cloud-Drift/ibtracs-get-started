@@ -1,0 +1,10 @@
+name: ibtracs-get-started
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - notebook
+  - numpy
+  - xarray
+  - matplotlib
+  - cartopy
