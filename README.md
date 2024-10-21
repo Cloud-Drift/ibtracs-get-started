@@ -5,8 +5,11 @@ This repository contains a notebooks to get you started with the [IBTrACS datase
 
 
 ## Using experimental examples
-Make sure you install the dependencies for the notebook and clouddrift:
+Make sure you initialize the submodule and install the dependencies for the notebook and clouddrift:
 ```bash
+git submodule init
+git submodule update
+
 conda env create -n ibtracs-get-started -f environment.yaml
 conda env update -n ibtracs-get-started --file clouddrift/environment.yaml
 ```
