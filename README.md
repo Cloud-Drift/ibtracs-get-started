@@ -5,7 +5,11 @@ This repository contains a notebook to get you started with the [IBTrACS dataset
 
 
 ## Using experimental examples
-Since the [dataset adapter PR](https://github.com/Cloud-Drift/clouddrift/pull/493) isn't merged in and released as part of a `clouddrift` release, a bit of extra setup is required to run the example notebooks.
+The following steps are only needed because the [dataset adapter PR](https://github.com/Cloud-Drift/clouddrift/pull/493) is under review. 
+
+Once the PR is merged in and a release containing the new adapter is built and distributed, these steps will no longer be required.
+
+The steps below setup `clouddrift` as a git submodule referencing the remote/branch associated to the PR above.
 
 1. Initialize the clouddrift library submodule.
 
