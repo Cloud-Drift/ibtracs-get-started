@@ -1,32 +1,8 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Cloud-Drift/ibtracs-get-started/HEAD)
 
-# ibtracs-get-started (experimental)
+# ibtracs-get-started
 This repository contains a notebook to get you started with the [IBTrACS dataset](https://www.ncei.noaa.gov/products/international-best-track-archive) using the [*clouddrift* library](https://clouddrift.org/).
 
+These notebooks should be readily executable in a binder environment which can be launched by clicking the "launch binder" badge above ☝️. Alternatively, you can run locally the notebooks in a python environment containing the python libraries listed in the file environment.yml.
 
-## Using experimental examples
-The following steps are only needed because the [dataset adapter PR](https://github.com/Cloud-Drift/clouddrift/pull/493) is under review. 
-
-Once the PR is merged in and a release containing the new adapter is built and distributed, these steps will no longer be required.
-
-The steps below setup `clouddrift` as a git submodule referencing the remote/branch associated to the PR above.
-
-1. Initialize the clouddrift library submodule.
-
-```bash
-git submodule init
-git submodule update
-```
-
-2. Setup the environment which we'll utilize to run the notebooks.
-
-```bash
-conda env create -n ibtracs-get-started -f environment.yml
-conda env update -n ibtracs-get-started --file dependencies/clouddrift/environment.yml
-```
-
-3. Utilize the `ibtracs-get-started` environment.
-
-```bash
-conda activate ibtracs-get-started
-```
+Feel free to contribute to this repo or raise an issue!

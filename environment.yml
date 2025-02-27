@@ -2,6 +2,7 @@ name: ibtracs-get-started
 channels:
   - conda-forge
 dependencies:
+  - clouddrift=0.44
   - python=3.10
   - notebook
   - numpy

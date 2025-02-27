@@ -1,3 +1,0 @@
-[submodule "dependencies/clouddrift"]
-	path = dependencies/clouddrift
-	url = https://github.com/kevinsantana11/clouddrift.git
